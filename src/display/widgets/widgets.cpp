@@ -47,12 +47,19 @@ namespace pangolin
 extern __thread PangolinGl* context;
 
 
-const static GLfloat colour_s1[4] = {0.2f, 0.2f, 0.2f, 1.0f};
-const static GLfloat colour_s2[4] = {0.6f, 0.6f, 0.6f, 1.0f};
-const static GLfloat colour_bg[4] = {0.9f, 0.9f, 0.9f, 1.0f};
-const static GLfloat colour_fg[4] = {1.0f, 1.0f, 1.0f, 1.0f};
-const static GLfloat colour_tx[4] = {0.0f, 0.0f, 0.0f, 1.0f};
-const static GLfloat colour_dn[4] = {1.0f, 0.7f, 0.7f, 1.0f};
+// const static GLfloat colour_s1[4] = {0.2f, 0.2f, 0.2f, 1.0f};
+// const static GLfloat colour_s2[4] = {0.6f, 0.6f, 0.6f, 1.0f};
+// const static GLfloat colour_bg[4] = {0.9f, 0.9f, 0.9f, 1.0f};
+// const static GLfloat colour_fg[4] = {1.0f, 1.0f, 1.0f, 1.0f};
+// const static GLfloat colour_tx[4] = {0.0f, 0.0f, 0.0f, 1.0f};
+// const static GLfloat colour_dn[4] = {1.0f, 0.7f, 0.7f, 1.0f};
+
+const static GLfloat colour_s1[4] = {84.0f/255.f, 84.0f/255.f, 84.0f/255.f, 1.0f};
+const static GLfloat colour_s2[4] = {84.0f/255.f, 84.0f/255.f, 84.0f/255.f, 1.0f};
+const static GLfloat colour_bg[4] = {19.f/255.0f, 26.f/255.0f, 35.f/255.0f, 1.0f};
+const static GLfloat colour_fg[4] = {84.0f/255.f, 84.0f/255.f, 84.0f/255.f, 1.0f};
+const static GLfloat colour_tx[4] = {255.f/255.0f, 255.f/255.0f, 255.f/255.0f, 1.0f};
+const static GLfloat colour_dn[4] = {51.f/255.0f, 203.f/255.f, 37.f/255.0f, 1.0f};
 
 static inline GlFont& font()
 {
